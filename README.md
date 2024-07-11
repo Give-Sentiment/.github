@@ -1,37 +1,18 @@
 
 <h1 align="center">Welcome to Sentiment's GitHub Organization</h1>
-<h3 align="center">Unlock the Power of Your Data with Sentiment</h3>
 
 <div id="header" align="center">
   <img src="https://sentiment-survey-logos.s3.us-east-2.amazonaws.com/8aa0c65f-2232-49c8-a647-29b039d9f5c1.jpeg" width="300"/><br><br>
-  <div id="badges">
-    <p align="center">
-      <a href="https://www.github.com/givesentiment" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="45" height="45" /></a> 
-      <a href="https://www.twitter.com/givesentiment" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="45" height="45" /></a> 
-      <a href="https://www.linkedin.com/company/givesentiment" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="45" height="45" /></a> 
-    </p>
-  </div>
-</div>
 
-<div align="center">
-  <img src="https://www.givesentiment.com/main-screen.png" />
-</div>
+## Our Software
+We want to build tools that aid in data collection and data valuation. It's that simple. Our software will include bits and integrations with the following:
 
-## Simplify Your Web3 Experience
-Take Control of Your Data with Our Secure Data Management Platform. Store, manage, and engage with confidence using our advanced features and intuitive interface.
-
-- [Get Started](https://www.givesentiment.com/get-started)
-- [Contact Us](https://www.givesentiment.com/contact)
-
-## Key Features
-### Secure, Fast, and Reliable
-Enhance Your Web3 Experience with Our Platform:
-
-- **Incentives for the Modern Age**: Maximize campaign outreach with a range of supported digital assets.
-- **Seamless Integration with dApps**: Easily interact with decentralized applications (dApps).
-- **Enhanced Security Measures**: Embrace peace of mind with advanced security features.
-- **Secure Digital Profile**: Safeguard your data with robust encryption and cutting-edge security measures.
-- **Decentralized Transactions**: Seamlessly send and receive cryptocurrencies directly from your wallet.
+- Survey Service
+- Biometric Authentication APIs
+- Dor Hardware Devices
+- Blockchain
+- Langchain Functions
+- etc.
 
 ## Meet the Team
 Our Dedicated Team, Passionate about Innovation
@@ -43,15 +24,15 @@ Our Dedicated Team, Passionate about Innovation
 - **Jordan Hoffee** - Executive Partner
 - **Akhil Kamalakar** - Advisor
 
-## Frequently Asked Questions
-Find the answers you need:
+## Security Practices
+We require all of our team to be onbaorded through SOC 2 II compliant practices, security awarenesses, and certifications prior to touching code.
 
-1. **Where can I purchase the Sentiment token?**
-2. **Is the Sentiment app available for download?**
-3. **Is Sentiment truly anonymous?**
-4. **How can I stay updated with the latest developments?**
+- Regularly review OWASP guidelines, OpenAPI, and integrate security checks (e.g., Snyk).
+- Follow best practices for securing environment variables using Vault.
+- Ensure all PII (Personal Identifiable Information) data is private or encrypted.
 
-## Join the Waitlist
-Secure Your Spot Today and Be the First to Experience True Data Monetization
+- [OWASP guidelines](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-en/02-checklist/05-checklist)
+- [OpenAPI Reference](https://swagger.io/specification/)
+- [PII Practices](https://www.virtru.com/blog/compliance/hipaa/pii-encryption-best-practices#:~:text=It%20requires%20encryption%20in%20transit,or%20damage%20to%20your%20reputation.)
 
-- [Join the Waitlist](https://www.givesentiment.com/waitlist)
+

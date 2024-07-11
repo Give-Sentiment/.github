@@ -20,7 +20,7 @@ We want to build tools that aid in data collection and data valuation. It's that
 ## Meet the Team
 Our Dedicated Team, Passionate about Innovation
 
-**David Correll** - Founder
+- **David Correll** - Founder
 - **Mike McMahon** - CTO & Co-Founder
 - **Brian O'Beirne** - CPO & Co-Founder
 - **Ryan Paglione** - COO & Co-Founder

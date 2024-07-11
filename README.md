@@ -1,8 +1,8 @@
 
 <h1 align="center">Welcome to Sentiment's GitHub Organization</h1>
 
-<div id="header" align="center">
-  <img src="https://sentiment-survey-logos.s3.us-east-2.amazonaws.com/8aa0c65f-2232-49c8-a647-29b039d9f5c1.jpeg" width="300"/><br><br>
+<div id="header" align="start">
+  <img src="https://sentiment-survey-logos.s3.us-east-2.amazonaws.com/8aa0c65f-2232-49c8-a647-29b039d9f5c1.jpeg" width="200"/><br><br>
 
 ## Our Software
 We want to build tools that aid in data collection and data valuation. It's that simple. Our software will include bits and integrations with the following:
@@ -17,7 +17,7 @@ We want to build tools that aid in data collection and data valuation. It's that
 ## Meet the Team
 Our Dedicated Team, Passionate about Innovation
 
-- **David Correll** - Founder
+**David Correll** - Founder
 - **Mike McMahon** - CTO & Co-Founder
 - **Brian O'Beirne** - CPO & Co-Founder
 - **Ryan Paglione** - COO & Co-Founder

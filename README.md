@@ -3,7 +3,7 @@
 <h3 align="center">Unlock the Power of Your Data with Sentiment</h3>
 
 <div id="header" align="center">
-  <img src="https://www.givesentiment.com/logo.png" width="300"/><br><br>
+  <img src="[https://www.givesentiment.com/logo.png](https://sentiment-survey-logos.s3.us-east-2.amazonaws.com/8aa0c65f-2232-49c8-a647-29b039d9f5c1.jpeg)" width="300"/><br><br>
   <div id="badges">
     <p align="center">
       <a href="https://www.github.com/givesentiment" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="45" height="45" /></a> 

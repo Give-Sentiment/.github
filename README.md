@@ -2,7 +2,10 @@
 <h1 align="center">Welcome to Sentiment's GitHub Organization</h1>
 
 <div id="header" align="start">
-  <img src="https://sentiment-survey-logos.s3.us-east-2.amazonaws.com/8aa0c65f-2232-49c8-a647-29b039d9f5c1.jpeg" width="200"/><br><br>
+  <div align="center">
+  <img src="https://sentiment-survey-logos.s3.us-east-2.amazonaws.com/8aa0c65f-2232-49c8-a647-29b039d9f5c1.jpeg" width="200"/><br>
+  </div>
+    <br>
 
 ## Our Software
 We want to build tools that aid in data collection and data valuation. It's that simple. Our software will include bits and integrations with the following:
@@ -35,4 +38,5 @@ We require all of our team to be onbaorded through SOC 2 II compliant practices,
 - [OpenAPI Reference](https://swagger.io/specification/)
 - [PII Practices](https://www.virtru.com/blog/compliance/hipaa/pii-encryption-best-practices#:~:text=It%20requires%20encryption%20in%20transit,or%20damage%20to%20your%20reputation.)
 
-
+## Welcome!
+We are excited to have you, and are happy to find that you align with us in working on some really cool technologies! Always reach out for any help, as we are a team.

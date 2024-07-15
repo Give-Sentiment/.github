@@ -81,7 +81,6 @@ Just add a short summary of the things you've done for this 'commit' of work. Ag
    - Navigate to the repository on GitHub.
    - Create a pull request for your branch, ensuring it targets the `main` branch.
    - Provide a clear description of the changes and request a review.
-   - **See gh cli below as github has made a cli tool to help navigate version control**
 
 7. **Code Review**:
    - Participate in code reviews, providing constructive feedback.

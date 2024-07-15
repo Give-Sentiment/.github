@@ -52,6 +52,14 @@ These are branching strategies, in which we will keep in short and sweet -- deci
 ## Commit Related Changes
 A commit should be a wrapper for related changes. For example, fixing two different bugs should produce two separate commits. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong.
 
+  - Use your CLI to `git add .`
+  - Then `git commit -m "SNT-001` <- Notice how I did not add an 'end quote'
+  - Press 'enter', in which you cli should show `dquote>` or some equivelant. This is how we can produce multiple lines.
+  - On these following lines you may enter a brief description of the work `dquote> addded the login feature`
+  - You may press enter and repeat for as many lines as you need, but please keep it to a reasonable amount.
+  - When you are done with your commit you may now add the final quote in your cli `"` in which this will close the commit message
+  - Finally `git push` to your branch, in which this will automatically trigger our CI/CD pipeline.
+
 1. **Commit Often**
 Committing often keeps your commits small and, again, helps you commit only related changes. Moreover, it allows you to share your code more frequently with others. That way it‘s easier for everyone to integrate changes regularly and avoid having merge conflicts. Having large commits and sharing them infrequently, in contrast, makes it hard to solve conflicts.
 
@@ -63,14 +71,6 @@ Resist the temptation to commit something that you «think» is completed. Test 
 
 4. **Write Good Commit Messages**
 We will use an interesting strategy for commit messages, please reach out if you need alignment on doing this. Previous to committing, review the files you are changing in the source control extension in your IDE (typically on the left side bar in VSCode). Then navigate to your cli and follow these steps: 
-
-  - Use your CLI to `git add .`
-  - Then `git commit -m "SNT-001` <- Notice how I did not add an 'end quote'
-  - Press 'enter', in which you cli should show `dquote>` or some equivelant. This is how we can produce multiple lines.
-  - On these following lines you may enter a brief description of the work `dquote> addded the login feature`
-  - You may press enter and repeat for as many lines as you need, but please keep it to a reasonable amount.
-  - When you are done with your commit you may now add the final quote in your cli `"` in which this will close the commit message
-  - Finally `git push` to your branch, in which this will automatically trigger our CI/CD pipeline.
 
 ## Workflow
 

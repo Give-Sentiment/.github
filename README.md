@@ -65,8 +65,8 @@ Resist the temptation to commit something that you «think» is completed. Test 
 We will use an interesting strategy for commit messages, please reach out if you need alignment on doing this. Previous to committing, review the files you are changing in the source control extension in your IDE (typically on the left side bar in VSCode). Then navigate to your cli and follow these steps: 
 
   - Use your CLI to `git add .`
-  - Then add your ticket number `git commit -m "SNT-001` <- Notice how I did not add an 'end quote'
-  - Press 'enter', in which you cli should show dquote> or some equivelant. This is how we can produce multiple lines.
+  - Then `git commit -m "SNT-001` <- Notice how I did not add an 'end quote'
+  - Press 'enter', in which you cli should show `dquote>` or some equivelant. This is how we can produce multiple lines.
   - On these following lines you may enter a brief description of the work `dquote> addded the login feature`
   - You may press enter and repeat for as many lines as you need, but please keep it to a reasonable amount.
   - When you are done with your commit you may now add the final quote in your cli `"` in which this will close the commit message

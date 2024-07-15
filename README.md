@@ -96,7 +96,7 @@ We will use an interesting strategy for commit messages, please reach out if you
 5. **Push Branch**:
    - Push your branch to the remote repository.
    - Example: `git push origin feature/SNT-001-add-login-page` for the first commit to your branch (or it'll prompt you to set upstream)
-   - Review **CLI Commits** above after your branch is upstream.
+   - Utilize **CLI Commits** (from the above 'Commit Related Changes' section above) after your branch is upstream.
 
 6. **Create Pull Request (PR)**:
    - Navigate to the repository on GitHub.

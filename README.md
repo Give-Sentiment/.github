@@ -93,11 +93,12 @@ We will use an interesting strategy for commit messages, please reach out if you
    - Then `git commit -m "SNT-001`
    - `dquote> fixed auth and added correct login timeout`
    - `"`
+   - Finally `git push` in which it may prompt you to set up stream for the first commit.
+   - Utilize **CLI Commits** (from the above 'Commit Related Changes' section above) after your branch is upstream.
 
 5. **Push Branch**:
    - Push your branch to the remote repository.
-   - Example: `git push origin feature/SNT-001-add-login-page` for the first commit to your branch (or it'll prompt you to set upstream)
-   - Utilize **CLI Commits** (from the above 'Commit Related Changes' section above) after your branch is upstream.
+   - Example: `git push origin feature/SNT-001-add-login-page` 
 
 6. **Create Pull Request (PR)**:
    - Navigate to the repository on GitHub.

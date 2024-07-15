@@ -49,11 +49,28 @@ These are branching strategies, in which we will keep in short and sweet -- deci
 3. **Experiment**: `experiment/<short-description>` * as these are not tickets so there is no ticket 'chapter', but feel free to experiment.
    - Example: `experiment/new-login-cache-strategy`
 
-## Commit Message Strategies
-Just add a short summary of the things you've done for this 'commit' of work. Again, **Keep everything lowecase except the ticekt chapter, ie SNT-001**
-   
-  - Keep under ~50 characters.
-  - Example: `fix user login timeout`
+## Commit Related Changes
+A commit should be a wrapper for related changes. For example, fixing two different bugs should produce two separate commits. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong.
+
+1. **Commit Often**
+Committing often keeps your commits small and, again, helps you commit only related changes. Moreover, it allows you to share your code more frequently with others. That way it‘s easier for everyone to integrate changes regularly and avoid having merge conflicts. Having large commits and sharing them infrequently, in contrast, makes it hard to solve conflicts.
+
+2. **Don't Commit Half-Done Work**
+You should only commit code when a logical component is completed. Split a feature‘s implementation into logical chunks that can be completed quickly so that you can commit often. If you‘re tempted to commit just because you need a clean working copy (to check out a branch, pull in changes, etc.) consider using Git‘s «Stash» feature instead.
+
+3. **Test Your Code Before You Commit**
+Resist the temptation to commit something that you «think» is completed. Test it thoroughly to make sure it really is completed and has no side effects (as far as one can tell). While committing half-baked things in your local repository only requires you to forgive yourself, having your code tested is even more important when it comes to pushing/sharing your code with others.
+
+4. **Write Good Commit Messages**
+We will use an interesting strategy for commit messages, please reach out if you need alignment on doing this. Previous to committing, review the files you are changing in the source control extension in your IDE (typically on the left side bar in VSCode). Then navigate to your cli and follow these steps: 
+
+  - Use your CLI to `git add .`
+  - Then `git commit -m "SNT-001` <- Notice how I did not add an 'end quote'
+  - Press 'enter', in which you cli should show dquote> or some equivelant. This is how we can produce multiple lines.
+  - On these following lines you may enter a brief description of the work `dquote> addded the login feature`
+  - You may press enter and repeat for as many lines as you need, but please keep it to a reasonable amount.
+  - When you are done with your commit you may now add the final quote in your cli `"` in which this will close the commit message
+  - Finally `git push` to your branch, in which this will automatically trigger our CI/CD pipeline.
 
 ## Workflow
 

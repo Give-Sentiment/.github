@@ -52,6 +52,7 @@ These are branching strategies, in which we will keep in short and sweet -- deci
 ## Commit Related Changes
 A commit should be a wrapper for related changes. For example, fixing two different bugs should produce two separate commits. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong.
 
+  **CLI Commits**
   - Use your CLI to `git add .`
   - Then `git commit -m "SNT-001` <- Notice how I did not add an 'end quote'
   - Press 'enter', in which you cli should show `dquote>` or some equivelant. This is how we can produce multiple lines.
@@ -88,11 +89,14 @@ We will use an interesting strategy for commit messages, please reach out if you
 
 4. **Make Atomic Commits**:
    - Commit single logical changes with clear, concise messages.
-   - Example: `git commit -m "fixed auth and added correct login timeout"`
+   - Example: `git commit -m "SNT-001`
+   - `dquote> fixed auth and added correct login timeout`
+   - `"`
 
 5. **Push Branch**:
    - Push your branch to the remote repository.
-   - Example: `git push origin feature/SNT-001-add-login-page`
+   - Example: `git push origin feature/SNT-001-add-login-page` for the first commit to your branch (or it'll prompt you to set upstream)
+   - Review **CLI Commits** above after your branch is upstream.
 
 6. **Create Pull Request (PR)**:
    - Navigate to the repository on GitHub.

@@ -89,7 +89,8 @@ We will use an interesting strategy for commit messages, please reach out if you
 
 4. **Make Atomic Commits**:
    - Commit single logical changes with clear, concise messages.
-   - Example: `git commit -m "SNT-001`
+   - Use your cli to `git add .`
+   - Then `git commit -m "SNT-001`
    - `dquote> fixed auth and added correct login timeout`
    - `"`
 

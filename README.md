@@ -3,6 +3,7 @@
 <div id="header" align="start">
   <div align="center">
     <br>
+    <br>
   <img src="https://sentiment-survey-logos.s3.us-east-2.amazonaws.com/8aa0c65f-2232-49c8-a647-29b039d9f5c1.jpeg" width="150"/><br>
   </div>
     <br>
